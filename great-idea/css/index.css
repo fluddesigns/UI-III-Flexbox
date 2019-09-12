@@ -5,7 +5,6 @@
 }
 
 html, body {
-    height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -83,9 +82,15 @@ footer p{
 	margin-top:1%;
 }
 
-hr{
-	color:black;
-	margin-bottom:4%;
+.topHr{
+	margin-bottom:2%;
+	margin-top:2%;
+	border-color:black;
+}
+
+.bottomHr{
+	margin-bottom:2%;
+	border-color:black;
 }
 
 .topSection h3{
@@ -114,6 +119,12 @@ hr{
 .bottomBox{
 	width:48%;
 }
+
+.services-info-img{
+	width:48%;
+	height:30%;
+}
+
 
 .servicesCr{
 	margin-top:5%;
