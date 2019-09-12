@@ -63,6 +63,11 @@ body{
 	margin-top: 4%
 }
 
+.upperImg{
+	width:100%;
+	margin-top:2%;
+}
+
 .infoSection{
 	display: flex;
 }
@@ -72,3 +77,44 @@ footer p{
   	margin:20px;
 }
 
+.topSection{
+	display:flex;
+	flex-flow:column nowrap;
+	margin-top:1%;
+}
+
+hr{
+	color:black;
+	margin-bottom:4%;
+}
+
+.topSection h3{
+	margin: 0;
+}
+
+.topSection p{
+	margin-bottom:0;
+}
+
+.flexContainer{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	
+}
+
+.box{
+	border:1px solid black;
+	background-color: lightgray;
+	padding: 2%;
+	margin-bottom: 4%;
+	width:48%;
+}
+
+.bottomBox{
+	width:48%;
+}
+
+.servicesCr{
+	margin-top:5%;
+}
